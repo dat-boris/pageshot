@@ -5,3 +5,6 @@ pytest-cov
 pytest-pep8
 pytest-watch
 coveralls
+
+# selenium driver
+selenium==2.48.0
