@@ -12,7 +12,8 @@ Take screenshot of specific URL.
 
     import pageshot
 
-    pageshot.take_screenshot("http://www.google.com", filename="out.png")
+    s = pageshot.Screenshoter()
+    s.take_screenshot("http://www.google.com", "out.png")
 
 # Installing phantomJS
 
