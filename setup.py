@@ -3,7 +3,10 @@ import sys
 
 from setuptools import setup
 
-requires = []
+requires = [
+    "selenium",
+    "Pillow"
+]
 
 setup(
     name="pageshot",
