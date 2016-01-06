@@ -6,5 +6,6 @@ pytest-pep8
 pytest-watch
 coveralls
 
-# selenium driver
+# screenshot dependencies
 selenium==2.48.0
+Pillow==3.1.0

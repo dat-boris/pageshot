@@ -10,6 +10,7 @@ import pageshot
 TEST_URL = "http://www.beyondtherack.com/"
 TEST_FILE = "out.png"
 
+
 def test_taking_screenshot():
     if os.path.isfile(TEST_FILE):
         os.remove(TEST_FILE)
