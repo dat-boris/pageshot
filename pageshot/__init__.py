@@ -19,6 +19,11 @@ class Screenshoter(object):
         self.width = width
         self.height = height
 
+    def __del__(self):
+        # TODO: still cause issue with phantomjs not closing :-(
+        self.driver.close()
+        self.driver.quit()
+
     def take_screenshot(self, url, filename, thumbnail=True):
         """
         Take screenshot of a URL.
