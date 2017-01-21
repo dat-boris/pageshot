@@ -15,9 +15,15 @@ Take screenshot of specific URL.
     s = pageshot.Screenshoter()
     s.take_screenshot("http://www.google.com", "out.png")
 
-# Installing phantomJS
+# Installing
+
+We require phantomjs support.
 
     npm -g install phantomjs
+
+To install, include this in requirements.txt
+
+    git+https://github.com/sketchytechky/pageshot.git
 
 
 # Running Tests
