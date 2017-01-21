@@ -10,11 +10,11 @@ requires = [
 
 setup(
     name="pageshot",
-    version='0.0.0',
+    version='0.0.1',
     description="",
     long_description="\n\n".join([open("README.md").read()]),
     author="Boris Lau",
-    author_email="boris@mobify.com",
-    url="https://github.com/mobify/pageshot",
-    package=['pageshot'],
+    author_email="boris@techie.im",
+    url="https://github.com/sketchytechky/pageshot",
+    packages=['pageshot'],
     install_requires=requires)
