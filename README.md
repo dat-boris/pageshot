@@ -1,5 +1,5 @@
 pageshot
-#############################
+--------
 
 Take screenshot of specific URL.
 
