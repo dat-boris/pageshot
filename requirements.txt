@@ -7,5 +7,5 @@ pytest-watch
 coveralls
 
 # screenshot dependencies
-selenium==2.48.0
-Pillow==3.1.0
+selenium==3.141.0
+Pillow==5.3.0

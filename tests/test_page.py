@@ -7,7 +7,7 @@ import os.path
 
 import pageshot
 
-TEST_URL = "http://www.beyondtherack.com/"
+TEST_URL = "https://www.bbc.co.uk/"
 TEST_FILE = "out.png"
 
 
