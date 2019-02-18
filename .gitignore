@@ -1,3 +1,6 @@
+out.png
+ghostdriver.log
+
 *.sw[a-z]
 *.py[cox]
 
