@@ -12,8 +12,12 @@ DEFAULT_HEIGHT = 768
 
 class Screenshoter(object):
 
-    def __init__(self, width=DEFAULT_WIDTH, height=DEFAULT_HEIGHT):
-        self.driver = webdriver.PhantomJS()
+    def __init__(self, width=DEFAULT_WIDTH, height=DEFAULT_HEIGHT,
+                 headless=False):
+        if headless:
+            self.driver = webdriver.PhantomJS()
+        else:
+            self.driver = webdriver.Chrome()
         self.driver.set_window_size(width, height)
         # record height for truncating
         self.width = width

@@ -3,7 +3,7 @@ pageshot
 
 Take screenshot of specific URL.
 
-[![Circle CI](https://circleci.com/gh/mobify/pageshot.svg?style=svg&circle-token=<cirlce-ci-token>)](https://circleci.com/gh/mobify/pageshot)
+[![Circle CI](https://circleci.com/gh/dat-boris/pageshot.svg?style=svg)](https://circleci.com/gh/dat-boris/pageshot)
 
 # Examples
 
